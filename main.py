@@ -144,7 +144,7 @@ while True:
 
             # Handle next step
             raw = response.text.strip()
-            print(f"\n📩 Gemini Follow-Up:\n{raw}\n")
+            # print(f"\n📩 Gemini Follow-Up:\n{raw}\n")
 
             if raw.startswith("```json"):
                 raw = raw.replace("```json", "").replace("```", "").strip()
